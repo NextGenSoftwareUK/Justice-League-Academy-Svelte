@@ -1,0 +1,25 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #030714;
+  --bg-card: #0a1535;
+  --blue: #3b82f6;
+  --violet: #a855f7;
+  --cyan: #22d3ee;
+  --amber: #f59e0b;
+  --green: #34d399;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: rgba(59,130,246,.35); border-radius: 3px; }
